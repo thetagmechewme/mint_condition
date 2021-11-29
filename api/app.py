@@ -5,7 +5,7 @@ app = Chalice(app_name='api')
 
 @app.route('/')
 def index():
-    return {'hello': 'world'}
+    return {'hello': 'matthew, would you like to play a game?'}
 
 @app.route("/grade_url/{image_url}")
 def grade_url(image_url):
